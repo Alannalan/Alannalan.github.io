@@ -36,7 +36,7 @@ function preload() {
   //Variáveis do som
   soundFormats('mp3','ogg')
   somtela1 = loadSound('Bita e os Animais - Fazendinha [clipe infantil].mp3')
-  somtela2 = loadSound('Slipknot - Duality (Live At Rock in Rio 2015) (Chorus).mp3')
+  //somtela2 = loadSound('Slipknot - Duality (Live At Rock in Rio 2015) (Chorus).mp3')
   somtela3 = loadSound('Oh Happy Day (Filme Mudança de Hábito II).mp3')
   somtela4 = loadSound('HELLO DARKNESS MY OLD FRIEND LYRICS VERSION 2017.mp3')
     
@@ -71,7 +71,7 @@ function draw() {
   
   
   if(tela==2){
-  somtela2.play()
+  //somtela2.play()
   background(galinheiro)
   text('Vidas: ' + vidas, 10, 30);
   text('Pontos: ' + pontos, 200, 30);
