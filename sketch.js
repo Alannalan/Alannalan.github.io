@@ -26,7 +26,7 @@ var qtdElementos = 2
 //JOGO
 function preload() {
   galinheiro= loadImage('galinheiro.jpg')
-  ovo= loadImage('kisspng-fried-egg-egg-white-white-eggs-5a833b0e90f604.7536668915185497745938.png')
+  //ovo= loadImage('kisspng-fried-egg-egg-white-white-eggs-5a833b0e90f604.7536668915185497745938.png')
   galinha=loadImage('5a2bb8ec085c53.9410613815128148280343.png')
   garfo= loadImage('garfinho.png')
   tela1= loadImage('tela1.png')
@@ -124,7 +124,7 @@ function draw() {
 
   if (estadoDisparo) {
     ellipse(xd, yd, 6, 6)
-     image(ovo,xd-24,yd-30,50,50)
+     //image(ovo,xd-24,yd-30,50,50)
     yd = yd - 10
   }
   if (yd < 0) {
